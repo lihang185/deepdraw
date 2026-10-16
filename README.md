@@ -1,6 +1,19 @@
 # DeepDraw 教育版
 
-独立的人工建模教学客户端。使用 Python 3.8 x64、PySide2 和本地几何/渲染引擎，不依赖 AI 版目录、AI 建模或 AI 渲染服务。
+DeepDraw 是一款 SketchUp 的替代产品，也是一款中国自主开发的轻量化通用三维图形引擎，由深度智绘（上海）开发。
+
+DeepDraw 采用与 SketchUp 尽可能一致的技术路径，核心算法和数据结构与 SketchUp 保持一致，旨在不改变用户习惯，让现有项目无缝迁移。
+
+本仓库为 DeepDraw 教育版，使用 Python 3.8 x64、PySide2（Qt5）和 C++ 开发的本地几何与渲染引擎。
+
+## 产品对比
+
+DeepDraw 与 [IngeTrazo](https://github.com/ingelibre/ingetrazo) 的产品定位高度重合，但采用了不同的技术路径。
+
+| 产品 | 所属 | 价格 | 技术栈 | 特点 |
+| --- | --- | --- | --- | --- |
+| DeepDraw | 中国 · 深度智绘（上海） | 免费 | Python + Qt5，核心部分使用 C++ | 底层算法采用 C++ 开发，注重性能，技术实现尽可能与 SketchUp 保持一致 |
+| IngeTrazo | 秘鲁 | 免费 | Python + Qt6 | 纯 Python 编写 |
 
 ## 启动
 

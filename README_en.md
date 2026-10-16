@@ -12,7 +12,7 @@ China has a vast number of architectural design, urban renewal, interior design,
 
 ## Cornerstone Initiative
 
-As the world's largest industrial nation, China has long lacked its own industrial design software products, relying on foreign vendors and remaining dependent on Europe and the United States. This is like a towering skyscraper whose foundations still need strengthening. We have launched the "Cornerstone Initiative" with the goal of developing affordable alternatives to all industrial design software sold in China over the next ten years. A decade of foundation-building will support an independent future for Chinese industry. The scope includes Rhino, AutoCAD, SolidWorks, UG, and MathLib.
+As the world's largest industrial nation, China has long lacked its own industrial design software products, relying on foreign vendors and remaining dependent on Europe and the United States. This is like a towering skyscraper whose foundations still need strengthening. We have launched the "Cornerstone Initiative" with the goal of developing affordable alternatives to all industrial design software sold in China over the next ten years. A decade of foundation-building will support an independent future for Chinese industry. The scope includes Rhino, AutoCAD, SolidWorks, UG, and MATLAB.
 
 ## Product Comparison
 

@@ -1,0 +1,306 @@
+[
+  {
+    "source": "engine/__init__.py",
+    "sha256": "3a6eb79f09e6347278157bd5c8302013a5c6c7d8e09a1594b47059200f5f2523"
+  },
+  {
+    "source": "engine/core.py",
+    "sha256": "3e286c0263096735041b865a87c102746fad619de1daae956bb337fe49ae3627"
+  },
+  {
+    "source": "engine/qt.py",
+    "sha256": "63d93a20859b9756d804d57f5dad7dd051ebfa89a7a5a6d380994c45575382bc"
+  },
+  {
+    "source": "engine/push_pull.py",
+    "sha256": "65b3c547645f98f4d25532cf0e6efc7488fb31b6616c6c9e1733b05c0def085d"
+  },
+  {
+    "source": "engine/comp_maker.py",
+    "sha256": "d15617f73c41ae6eafc646b18d3c8e5177b2f48d46f9005edff48e1f5c0215d6"
+  },
+  {
+    "source": "engine/entity_refs.py",
+    "sha256": "2518528e1970e99febb75176b05ccc005d72906bb698f5f5d14c08cb6f7f56fb"
+  },
+  {
+    "source": "engine/named_set_schema.py",
+    "sha256": "bd56f78e1feff185f35f735e81b9ed5b8bd2a3593a46d37ce03f5589045d53bb"
+  },
+  {
+    "source": "engine/units.py",
+    "sha256": "66edf4aa67044ca1d558729e8ce18b23d0c08e72d1427af18495b2b612e0120d"
+  },
+  {
+    "source": "engine/animation.py",
+    "sha256": "c211270abf6cc7909802bf5cf9e61afdb3ffdd458d4cea04a621576883697abf"
+  },
+  {
+    "source": "engine/scenes.py",
+    "sha256": "515b415fe886e5f2e722fff46aba46b216a771dfd4b04b70339bcfd268a0b43d"
+  },
+  {
+    "source": "engine/native/__init__.py",
+    "sha256": "f78317753123a4d22d4bd4edc58aa6a46535767761e2065b3e6a039babf7941f"
+  },
+  {
+    "source": "engine/native/cp38/editor2.cp38-win_amd64.pyd",
+    "sha256": "1b4919b7ee0aae43c1cf662af6dcd9bcd8ea33b8952a0494560ff444f385a024"
+  },
+  {
+    "source": "engine/native/cp38/deepdraw_render.pyd",
+    "sha256": "802bf17840c3e5118ee3935537b5b6ef66a69552a28b48a30de4b1cb41f746f5"
+  },
+  {
+    "source": "engine/viewer/adaptive_edges.py",
+    "sha256": "872e35b8ed2af02e362d06ce4a7aaeb77541f56e00028307bccfc6952c6908b6"
+  },
+  {
+    "source": "engine/viewer/dimension_labels.py",
+    "sha256": "eca4c106a1aff5a92aeddff17bb33d18e291d9f159b230ab1063b1bfa7b7e1dd"
+  },
+  {
+    "source": "engine/viewer/human_sections.py",
+    "sha256": "edd60f448b41c88ff31caa29e579c572f815805c52665c9333e8aac3bc19827b"
+  },
+  {
+    "source": "engine/viewer/overlays.py",
+    "sha256": "7502d17e121aaf0be598bf492038b9401171eb489fee11ff2fb0793c4ac6217a"
+  },
+  {
+    "source": "engine/viewer/render_backend.py",
+    "sha256": "0f8f438ff2731e07d41a85d83e81755b2c305d9bc442e24431fffab64215e9a6"
+  },
+  {
+    "source": "engine/viewer/render_changes.py",
+    "sha256": "1af69f11128c9663afa5d79013ef6a2430ee6b3c6b7acd28da75daf9a61cc2bb"
+  },
+  {
+    "source": "engine/viewer/render_pipeline.py",
+    "sha256": "16ab539f422abd6beac0346a2f5d03a3487025fa0a2bcd6ccfb50ed1e6a7c621"
+  },
+  {
+    "source": "engine/viewer/section_geometry.py",
+    "sha256": "fa26e81482ee93cfc30861e89f0df0f452a9217d466057d9d463f27e7cfdc068"
+  },
+  {
+    "source": "engine/viewer/shadows.py",
+    "sha256": "d650df104c4a1c7871c66f4e220d9c62d79736b2a05c11dd8ab19d68afc7b0d1"
+  },
+  {
+    "source": "engine/viewer/view3d.py",
+    "sha256": "e1a6a70633a8db416e07b5a16e766270fc19c138651ea350d5e50714cbd021e3"
+  },
+  {
+    "source": "engine/viewer/__init__.py",
+    "sha256": "716a2b70f9e8a8c6e2d855ded3c71973e126a31c8513aa310802dac00a9ffafb"
+  },
+  {
+    "source": "engine/tools/drawing_support.py",
+    "sha256": "19bbeea717e4a5ec1e8f3a2a0bfea811d2ab3548749d04278492b1c14f398b21"
+  },
+  {
+    "source": "engine/tools/edit_tool_support.py",
+    "sha256": "277683289871485309647b58beaa334d14959263a2a41e558f5f28a4a997be48"
+  },
+  {
+    "source": "engine/tools/move_snap.py",
+    "sha256": "54cb36140b66e8797b040d04fc3be39f247c0b45fed775817edec292373d2c2b"
+  },
+  {
+    "source": "engine/tools/tool_annotation.py",
+    "sha256": "605a2f795ae1520ba670c81110c012aeca07b69221287769d6f12bc8739fc4f0"
+  },
+  {
+    "source": "engine/tools/tool_brush.py",
+    "sha256": "e492eac6953dc796d8f901e5d6400a6bfd031222fff42095fb13e59efc9a5ce4"
+  },
+  {
+    "source": "engine/tools/tool_camera.py",
+    "sha256": "30ace2a4d21c1365e930f535f62ac833105d2758576880e01b16ce4c936598f2"
+  },
+  {
+    "source": "engine/tools/tool_comp_place.py",
+    "sha256": "6d62c4ebd8846b34b3e3f81de02b6fc8e39df223641d0f35c43c0ed674a4b6c8"
+  },
+  {
+    "source": "engine/tools/tool_dimension.py",
+    "sha256": "2a95894fb54b2b0d2411745956336e364d05bc322f141a40acfda513e374061b"
+  },
+  {
+    "source": "engine/tools/tool_door.py",
+    "sha256": "d49ffc17600faf0f655393b574a824ede91a358df5821bba39455d7d564ac4e3"
+  },
+  {
+    "source": "engine/tools/tool_draw_arc.py",
+    "sha256": "8bd887bc9865132b4ba29b1909af504f6732025ed70d598eab0e68ebb1516006"
+  },
+  {
+    "source": "engine/tools/tool_draw_circle.py",
+    "sha256": "4c61572ed9c17f7a664e4237420455c9ce77cc21a9d05e593573939ac53969a4"
+  },
+  {
+    "source": "engine/tools/tool_draw_line.py",
+    "sha256": "17f1414509379e49b64ebf1978bd3b0ad435f74ec198ddaeb5374bde63963f66"
+  },
+  {
+    "source": "engine/tools/tool_draw_rect.py",
+    "sha256": "c1f1517ed27e2f8fb9f8497874645f5bf1152276ee12e091ab35a3b39696fb20"
+  },
+  {
+    "source": "engine/tools/tool_erase.py",
+    "sha256": "54a8a2a515a8342bc4a87e055a547cb7b0df91a40ecbec5deaec4bbd4b187089"
+  },
+  {
+    "source": "engine/tools/tool_follow_me.py",
+    "sha256": "939a0c30f4bc6aceefd4ecc216a0230881b02a0dbe61b23ebce2c3fe2929df74"
+  },
+  {
+    "source": "engine/tools/tool_guide_line.py",
+    "sha256": "dd0efc72f90d377ededf6b547ee51b8f5b282f792db812d05a807623cb56de41"
+  },
+  {
+    "source": "engine/tools/tool_move.py",
+    "sha256": "3e7a8784c2ccb327f2ef534934b0ddc7150f386854c24bf6544eaeada7fe0993"
+  },
+  {
+    "source": "engine/tools/tool_offset.py",
+    "sha256": "798f593aafbc37e6d15414e1540837135ebbeea4c0e62d50ef408718bce4913d"
+  },
+  {
+    "source": "engine/tools/tool_protractor.py",
+    "sha256": "b2b93fedf13fab36ec1f909ed9f0db764e1aa50258d124cfc554745c87249cbf"
+  },
+  {
+    "source": "engine/tools/tool_push.py",
+    "sha256": "ab3a6135d8b630cf86b170ac38e3db2c5ca3dc2f8cc69fdd176e9ea74d4de49f"
+  },
+  {
+    "source": "engine/tools/tool_rotate.py",
+    "sha256": "8b5a0b06b6c4c3bebd8d1175737be8232d9e603c12d5d2c9c2f4559d169ed2ad"
+  },
+  {
+    "source": "engine/tools/tool_scale.py",
+    "sha256": "e0f0dc58cb65cc8fdab579bee3ce7cb462df54a76c4088142cd697898c5bb0a0"
+  },
+  {
+    "source": "engine/tools/tool_section.py",
+    "sha256": "36a1292c7e8aec2283e9679054e10e217db8c876843b128eb4412fd0d9fab2de"
+  },
+  {
+    "source": "engine/tools/tool_select.py",
+    "sha256": "a251195fbc6c6b60e8ab91187468f6af3d31ab36d11c67c25a70b1a1fd26b3bb"
+  },
+  {
+    "source": "engine/tools/tool_text.py",
+    "sha256": "f7053a52b0081ecedd14c0d1c7f0998804cc7019f85ef1d5bc4c01a21fbfa523"
+  },
+  {
+    "source": "engine/tools/tool_texture.py",
+    "sha256": "8ce6f292280e82c81dfdec6c087dc3c5de0bc2394ebd97cd94190eb3923dc1b0"
+  },
+  {
+    "source": "engine/tools/transaction_tool.py",
+    "sha256": "aee683af84f0f1daa7b149eea7d9add1aa8fae561de01384569f77d7e090e603"
+  },
+  {
+    "source": "engine/tools/__init__.py",
+    "sha256": "a6c57bb11aadc56dd0ace981d00fa3e5057cdddff6fec7b3f505cd1fd676d0c4"
+  },
+  {
+    "source": "modeling/objects.py",
+    "sha256": "53677c4e7cd9ac2ba64a3b629bdacbccee88a7f8bdc7f009f61628dae9c9bb7d"
+  },
+  {
+    "source": "modeling/metadata.py",
+    "sha256": "d75ee33dba85ec4b979d30fac32ab9724878620cc5461dc855b6bc7c6e904764"
+  },
+  {
+    "source": "modeling/grouping.py",
+    "sha256": "3873f93c7ce9729e54a6699acc4b0025ca6189f0e8de67cd074a516970ca6dd9"
+  },
+  {
+    "source": "modeling/text.py",
+    "sha256": "e07acff1fefbe157c7bc028d633082a72fec5eb20fdfc16e11b48290b561b2a5"
+  },
+  {
+    "source": "modeling/planar.py",
+    "sha256": "f2dd2df20fb7db3841fdddb47560f3bf37f3e9922cac7cca23458b709677eb9a"
+  },
+  {
+    "source": "modeling/sweep_geometry.py",
+    "sha256": "5a15d7d746824dac1b93fc467bee54c56bab3df5af76c85c1c337ce5227e581f"
+  },
+  {
+    "source": "modeling/edit.py",
+    "sha256": "32292cedab7307189b08987051a4391a1dea9f48643b002a18adca83bb4a182a"
+  },
+  {
+    "source": "modeling/build.py",
+    "sha256": "6a742b828825f098a0e7a691043ccda1407c326f0aa48c2ed09365ab2d82db4f"
+  },
+  {
+    "source": "modeling/sweep.py",
+    "sha256": "8b0fe73be396107c0e74b742718c1735727e9953145dc9f8340e803922ecd287"
+  },
+  {
+    "source": "modeling/selection.py",
+    "sha256": "517395923171c19038e478824247fabcd8d440ed0dd1fcf59a3e75dbfcb27b81"
+  },
+  {
+    "source": "modeling/reference.py",
+    "sha256": "dbb87b65a7b64921616901a93b4a347f16f5eab0b7e4d3c5595b9a6e9b383834"
+  },
+  {
+    "source": "engine/ui/layer_dock.py",
+    "sha256": "4d120e2bc78893d4f86e08b2baeceee17b02062d6e3403c29e36315632c49674"
+  },
+  {
+    "source": "engine/ui/layer_dock.ui",
+    "sha256": "98a53005c0e1910354db9dc65ffca52bcd862fa3e4c8318af146a9f61d122c36"
+  },
+  {
+    "source": "engine/ui/Ui_layer_dock.py",
+    "sha256": "eac066c78e00fabe8e4f5eafd5948710c5adeb91b936ebd0de4f5e7b85e652be"
+  },
+  {
+    "source": "engine/ui/selection_layer.py",
+    "sha256": "45028e0ab2e57e438253aa43bfcd92f7050d5194209a4a431fcc0fb45d097f38"
+  },
+  {
+    "source": "engine/ui/selection_layer.ui",
+    "sha256": "5db37eb48c9c003e6d09e34cf5664be70a28f2b5b2b5ee891f04ad861240b0d9"
+  },
+  {
+    "source": "engine/ui/Ui_selection_layer.py",
+    "sha256": "4820470d1c8056567e1c9492058b8d542c9544f119948d6af377bad91390c2da"
+  },
+  {
+    "source": "engine/ui/text_dialog.py",
+    "sha256": "ea9ea78b4bf6d122f95a9df50a2a3d18c419777c095f5d4eeb7a5f607a93c81a"
+  },
+  {
+    "source": "engine/ui/text_dialog.ui",
+    "sha256": "a20aaff6201f2f400ad68f84a3f914be7faafde3d9cef50b00ec8aead21b21ae"
+  },
+  {
+    "source": "engine/ui/Ui_text_dialog.py",
+    "sha256": "a6a67ce700c40fcaa9e2ef45be3103080231cea891a342b122f673457df94492"
+  },
+  {
+    "source": "engine/ui/main_window.py",
+    "sha256": "0da76478720ddc47ac2df8db5af743e012b156c71f093b3c822ed295b785b994"
+  },
+  {
+    "source": "engine/ui/main_window.py",
+    "sha256": "0da76478720ddc47ac2df8db5af743e012b156c71f093b3c822ed295b785b994"
+  },
+  {
+    "source": "binary_file_v2.py",
+    "sha256": "f23b0840955caa6b929da00c2e43923cd3bd7fc8e333fdf5c104793bf16e9cdc"
+  },
+  {
+    "source": "engine/serialization.py",
+    "sha256": "42295bc8e69776bee254f11308a87577fb3f38d99f2c2d2a6ad6fc0870c80760"
+  }
+]

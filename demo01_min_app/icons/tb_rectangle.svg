@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="矩形工具">
+  <rect x="182" y="252" width="660" height="520" rx="18" fill="#D8CDEE" stroke="#2F2845" stroke-width="40"/>
+  <path d="M220 734V290h584" fill="none" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+  <path d="M182 252h660v520H182Z" fill="none" stroke="#7157A3" stroke-width="26" stroke-linejoin="round"/>
+  <rect x="138" y="208" width="88" height="88" rx="16" fill="#7157A3" stroke="#2F2845" stroke-width="22"/>
+  <rect x="798" y="208" width="88" height="88" rx="16" fill="#7157A3" stroke="#2F2845" stroke-width="22"/>
+  <rect x="138" y="728" width="88" height="88" rx="16" fill="#7157A3" stroke="#2F2845" stroke-width="22"/>
+  <rect x="798" y="728" width="88" height="88" rx="16" fill="#45C5A5" stroke="#2F2845" stroke-width="22"/>
+</svg>
+

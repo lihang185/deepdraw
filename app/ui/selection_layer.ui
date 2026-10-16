@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+ <class>SelectionLayer</class>
+ <widget class="QWidget" name="SelectionLayer">
+  <layout class="QHBoxLayout" name="layout">
+   <property name="leftMargin"><number>4</number></property>
+   <property name="topMargin"><number>0</number></property>
+   <property name="rightMargin"><number>4</number></property>
+   <property name="bottomMargin"><number>0</number></property>
+   <item><widget class="QComboBox" name="layerCombo">
+    <property name="minimumSize"><size><width>160</width><height>0</height></size></property>
+    <property name="toolTip"><string>设置选中对象所属图层</string></property>
+    <property name="enabled"><bool>false</bool></property>
+   </widget></item>
+  </layout>
+ </widget>
+ <resources />
+ <connections />
+</ui>

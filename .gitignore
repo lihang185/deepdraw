@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+!*.pyd
+runtime/
+build/
+dist/
+.eric6project/

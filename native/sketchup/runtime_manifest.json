@@ -1,0 +1,20 @@
+{
+  "binding": "pybind11",
+  "python": "3.8 x64",
+  "pybind11": "3.0.4",
+  "source": "native/sketchup",
+  "runtime_files": {
+    "importers/sketchup/SketchUpAPI.dll": "9677758b87a2b0be90580d5ea75401e69cc8fc021deca23eeae638838b0b797f",
+    "importers/sketchup/SketchUpCommonPreferences.dll": "d2d02d1ee1d557c9a08ef55c4cfae69e2820480506d7c286abd90fe6738ce188",
+    "importers/sketchup/skp_exporter.cp38-win_amd64.pyd": "d5ee5e614d6d15d64e537b75a2bb5799aa6eafa9e318942afa26f1a88c7189a4",
+    "importers/sketchup/suapi.cp38-win_amd64.pyd": "b27352606ae3e42da5aace3dc877ae0a96346fcb8e4195d9ecd7d3493d4de99b",
+    "importers/sketchup/suapi_extra.cp38-win_amd64.pyd": "5ab49876d88cb31d3d427b7614abb2b9708a0fdba98fee3576509116b05daf47"
+  },
+  "export_engine": {
+    "engine/native/cp38/DeepDrawAPI.h": "17c8000e13961e219dc6697ab61cbebade2b4f358e13bceb1e55af4948cc8c08",
+    "engine/native/cp38/editor2.cp38-win_amd64.lib": "1b70084bf6bca2b32b1a03349bb913e7f979f8727670e65c18b9b14e94dc5c4f",
+    "engine/native/cp38/editor2.cp38-win_amd64.pyd": "1b4919b7ee0aae43c1cf662af6dcd9bcd8ea33b8952a0494560ff444f385a024"
+  },
+  "import_engine": "editor2/CEntityFactory",
+  "import_dim_payload": 3
+}

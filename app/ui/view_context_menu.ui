@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0"><class>ViewContextMenu</class>
+<widget class="QMenu" name="ViewContextMenu">
+ <addaction name="actionFitCamera" />
+ <addaction name="actionObjectProperties" />
+ <addaction name="separator" />
+ <addaction name="actionFlipFace" />
+ <addaction name="actionTexturePosition" /><addaction name="actionTextureRotate" />
+ <action name="actionTexturePosition"><property name="text"><string>贴图位置</string></property></action>
+ <action name="actionTextureRotate"><property name="text"><string>贴图旋转</string></property></action>
+ <addaction name="actionExport" /><addaction name="actionExplode" />
+ <addaction name="actionToGroup" /><addaction name="actionToComponent" />
+ <action name="actionExport"><property name="text"><string>导出</string></property></action>
+ <action name="actionFlipFace"><property name="text"><string>翻转面</string></property></action>
+ <action name="actionExplode"><property name="text"><string>炸开</string></property></action>
+ <action name="actionToGroup"><property name="text"><string>转成Group</string></property></action>
+ <action name="actionToComponent"><property name="text"><string>转成CComponent</string></property></action>
+ <action name="actionObjectProperties"><property name="text"><string>对象属性</string></property></action>
+ <action name="actionFitCamera"><property name="text"><string>适应视图</string></property></action>
+</widget><resources /><connections /></ui>

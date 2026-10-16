@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+ <class>MaterialLibraryDock</class>
+ <widget class="QDockWidget" name="assetLibrary">
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="toolTip">
+   <string />
+  </property>
+  <property name="styleSheet">
+   <string />
+  </property>
+  <property name="windowTitle">
+   <string>模型库</string>
+  </property>
+  <widget class="QWidget" name="dockContents">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="toolTip">
+    <string />
+   </property>
+   <property name="styleSheet">
+    <string />
+   </property>
+   <layout class="QVBoxLayout" name="contentLayout" stretch="0,0,1,0,0,0">
+    <property name="leftMargin">
+     <number>6</number>
+    </property>
+    <property name="topMargin">
+     <number>9</number>
+    </property>
+    <property name="rightMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>9</number>
+    </property>
+    <property name="spacing">
+     <number>6</number>
+    </property>
+    <item>
+     <widget class="QGroupBox" name="material_parameters">
+      <property name="sizePolicy"><sizepolicy hsizetype="Preferred" vsizetype="Fixed"><horstretch>0</horstretch><verstretch>0</verstretch></sizepolicy></property>
+      <property name="title"><string>材质参数</string></property>
+      <layout class="QFormLayout" name="materialParametersLayout">
+       <item row="0" column="0" colspan="2"><widget class="QLabel" name="material_texture_preview"><property name="minimumSize"><size><width>0</width><height>150</height></size></property><property name="maximumSize"><size><width>16777215</width><height>150</height></size></property><property name="alignment"><set>Qt::AlignCenter</set></property><property name="text"><string /></property></widget></item>
+       <item row="2" column="0"><widget class="QLabel" name="color_label"><property name="text"><string>颜色</string></property></widget></item>
+       <item row="2" column="1"><widget class="QPushButton" name="material_color"><property name="text"><string>未选择材质</string></property><property name="minimumSize"><size><width>0</width><height>24</height></size></property></widget></item>
+       <item row="3" column="0"><widget class="QLabel" name="texture_label"><property name="text"><string>贴图</string></property></widget></item>
+       <item row="3" column="1"><layout class="QHBoxLayout" name="textureLayout"><item><widget class="QLineEdit" name="material_texture"><property name="readOnly"><bool>true</bool></property><property name="placeholderText"><string>未选择材质</string></property></widget></item><item><widget class="QToolButton" name="material_texture_choose"><property name="toolTip"><string>选择贴图</string></property><property name="text"><string>…</string></property></widget></item></layout></item>
+       <item row="4" column="0"><widget class="QLabel" name="size_u_label"><property name="text"><string>贴图尺寸</string></property></widget></item>
+       <item row="4" column="1"><layout class="QHBoxLayout" name="textureSizeLayout"><item><widget class="QDoubleSpinBox" name="material_size_u"><property name="toolTip"><string>U 方向尺寸（cm）</string></property><property name="decimals"><number>3</number></property><property name="minimum"><double>0.001</double></property><property name="maximum"><double>1000000</double></property><property name="value"><double>100</double></property><property name="keyboardTracking"><bool>false</bool></property></widget></item><item><widget class="QLabel" name="texture_size_separator"><property name="text"><string>×</string></property></widget></item><item><widget class="QDoubleSpinBox" name="material_size_v"><property name="toolTip"><string>V 方向尺寸（cm）</string></property><property name="decimals"><number>3</number></property><property name="minimum"><double>0.001</double></property><property name="maximum"><double>1000000</double></property><property name="value"><double>100</double></property><property name="keyboardTracking"><bool>false</bool></property></widget></item><item><widget class="QLabel" name="texture_size_unit"><property name="text"><string>cm</string></property></widget></item></layout></item>
+       <item row="5" column="0"><widget class="QLabel" name="opacity_label"><property name="text"><string>透明度</string></property></widget></item>
+       <item row="5" column="1"><layout class="QHBoxLayout" name="opacityLayout"><item><widget class="QCheckBox" name="material_use_opacity"><property name="toolTip"><string>启用透明材质</string></property></widget></item><item><widget class="QSlider" name="material_opacity"><property name="orientation"><enum>Qt::Horizontal</enum></property><property name="maximum"><number>100</number></property></widget></item><item><widget class="QLabel" name="material_opacity_value"><property name="text"><string>1.00</string></property></widget></item></layout></item>
+       <item row="6" column="0"><widget class="QLabel" name="line_color_label"><property name="text"><string>线段颜色</string></property></widget></item>
+       <item row="6" column="1"><layout class="QHBoxLayout" name="lineColorLayout"><item><widget class="QCheckBox" name="material_use_line_color"><property name="toolTip"><string>自定义线段颜色</string></property></widget></item><item><widget class="QPushButton" name="material_line_color"><property name="text"><string>选择颜色</string></property></widget></item></layout></item>
+      <item row="1" column="0"><widget class="QLabel" name="material_name_label"><property name="text"><string>材质名</string></property></widget></item><item row="1" column="1"><widget class="QLineEdit" name="material_name" /></item></layout>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="catalogActionsLayout" stretch="0,0,0,0">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="folder_button">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="toolTip">
+         <string />
+        </property>
+        <property name="styleSheet">
+         <string />
+        </property>
+        <property name="text">
+         <string>添加目录</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="refresh_button">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="toolTip">
+         <string />
+        </property>
+        <property name="styleSheet">
+         <string />
+        </property>
+        <property name="text">
+         <string>刷新</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     <item>
+     <widget class="QPushButton" name="apply">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="toolTip">
+       <string />
+      </property>
+      <property name="styleSheet">
+       <string />
+      </property>
+      <property name="text">
+       <string>插入场景</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+     <item><widget class="QPushButton" name="new_material"><property name="text"><string>新建材质</string></property></widget></item>
+    </layout>
+    </item>
+    <item>
+     <widget class="QListWidget" name="items">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="toolTip">
+       <string />
+      </property>
+      <property name="styleSheet">
+       <string />
+      </property>
+      <property name="viewMode">
+       <enum>QListView::IconMode</enum>
+      </property>
+      <property name="resizeMode">
+       <enum>QListView::Adjust</enum>
+      </property>
+      <property name="movement">
+       <enum>QListView::Static</enum>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>72</width>
+        <height>72</height>
+       </size>
+      </property>
+      <property name="gridSize">
+       <size>
+        <width>88</width>
+        <height>106</height>
+       </size>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     <property name="spacing"><number>0</number></property><property name="horizontalScrollBarPolicy"><enum>Qt::ScrollBarAlwaysOff</enum></property></widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="profileActionsLayout" stretch="0,0">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="message">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="toolTip">
+       <string />
+      </property>
+      <property name="styleSheet">
+       <string />
+      </property>
+      <property name="text">
+       <string />
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources />
+ <connections />
+</ui>

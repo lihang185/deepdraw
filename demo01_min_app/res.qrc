@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/tb_measure.svg</file>
+    <file>icons/tb_offset.svg</file>
+    <file>icons/layer.png</file>
+    <file>icons/tb_line.svg</file>
+    <file>icons/tb_pushpull.svg</file>
+    <file>icons/tb_rectangle.svg</file>
+    <file>icons/tb_select.svg</file>
+  </qresource>
+</RCC>

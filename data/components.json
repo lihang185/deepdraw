@@ -1,0 +1,192 @@
+{"list": [
+{
+  "name":"纸片人",
+  "desc":"系统模型初始参考人",
+  "file":"ren"
+},
+{
+  "name":"海芋",
+  "desc":"叶片宽大，呈心形，颜色深绿，\n具有较高的观赏价值。",
+  "file":"flower01"
+},
+{
+  "name":"龙血树‌",
+  "desc":"植株高大挺拔，叶片细长如剑，\n呈深绿色，极具观赏价值。",
+  "file":"flower02"
+},
+{
+  "name":"蝴蝶兰‌",
+  "desc":"花朵洁白，花瓣细长且优雅，花茎挺拔\n叶片宽大翠绿，整体造型美观",
+  "file":"flower03"
+},
+{
+  "name":"红蓼",
+  "desc":"穗状花序粉红色或黄色，下垂如麦穗。",
+  "file":"flower04"
+},
+{
+  "name":"玉树",
+  "desc":"又名‌燕子掌‌，属于景天科常绿多肉植物‌。",
+  "file":"flower05"
+},
+{
+  "name":"长沙发",
+  "desc":"意式极简主义，3人长沙发",
+  "file":"a10-m01-shafa"
+},
+{
+  "name":"边几",
+  "desc":"沙发转角处的小方茶几",
+  "file":"bianji01"
+},
+{
+  "name":"单人椅",
+  "desc":"休闲椅子，看上去十分惬意",
+  "file":"a10-m02-danrenyi"
+},
+{
+  "name":"圆形边几",
+  "desc":"轻奢主义，休闲边几",
+  "file":"bianji02"
+},
+{
+  "name":"大茶几",
+  "desc":"需要足够大的客厅才能撑起来",
+  "file":"dachaji"
+},
+{
+  "name":"茶壶",
+  "desc":"茶壶套装，泡壶茶的悠闲自在",
+  "file":"chahu"
+},
+{
+  "name":"书本和茶杯",
+  "desc":"随手放置的装饰品",
+  "file":"shipin01"
+},
+{
+  "name":"侍卫猫",
+  "desc":"希腊抽象主义，3只站得笔直的猫咪",
+  "file":"a01-s03-maomao-x3"
+},
+{
+  "name":"钢琴",
+  "desc":"仿佛耳边又响起\n查德·克莱德曼-梦中的婚礼",
+  "file":"pianno"
+},
+{
+  "name":"餐桌",
+  "desc":"现代风格餐桌，家庭中的凝聚力",
+  "file":"dining_table"
+},
+{
+  "name":"酒柜",
+  "desc":"极简主义酒柜",
+  "file":"jiugui"
+},
+{
+  "name":"装饰柜A",
+  "desc":"轻奢派，极为抽象的几何体。",
+  "file":"zhanshigui01"
+},
+{
+  "name":"装饰柜B",
+  "desc":"轻奢派，极为抽象的几何体。",
+  "file":"zhanshigui02"
+},
+{
+  "name":"边柜",
+  "desc":"餐桌旁的小装饰柜，让餐卓增添厚重敢",
+  "file":"biangui"
+},
+{
+  "name":"房间门 H220 W80",
+  "desc":"普通复合门",
+  "file":"door_H220_80"
+},
+{
+  "name":"房间门 H220 W80 厚墙",
+  "desc":"普通复合门",
+  "file":"door_H220_80_T"
+},
+{
+  "name":"房间门 H220 W68",
+  "desc":"普通复合门",
+  "file":"door_H220_68"
+},
+{
+  "name":"房间门 H220 W68 厚墙",
+  "desc":"普通复合门",
+  "file":"door_H220_68_T"
+},
+{
+  "name":"房间门 H220 W90 厚墙",
+  "desc":"普通复合门",
+  "file":"door_H220_90_T"
+},
+{
+  "name":"房间门 H220 W90",
+  "desc":"普通复合门",
+  "file":"door_H220_90"
+},
+{
+  "name":"门套",
+  "desc":"普通复合门，门框压条",
+  "file":"door_casing"
+},
+{
+  "name":"柜门01",
+  "desc":"海尔书香门第系列，栅格门",
+  "file":"door01"
+},
+{
+  "name":"柜门02",
+  "desc":"海尔书香门第系列，柜门",
+  "file":"door02"
+},
+{
+  "name":"抽屉",
+  "desc":"海尔书香门第系列，抽屉门",
+  "file":"drawer"
+},
+{
+  "name":"顶线",
+  "desc":"海尔书香门第系列，顶线轮廓",
+  "file":"top_line"
+},
+{
+  "name":"轮廓01",
+  "desc":"简单的方形轮廓",
+  "file":"outline01"
+},
+{
+  "name":"淋浴房(方形)",
+  "desc":"玻璃铰链淋浴房",
+  "file":"shower_room_01"
+},
+{
+  "name":"台盆",
+  "desc":"科勒半嵌式台盆柜",
+  "file":"washbasin01"
+},
+{
+  "name":"马桶",
+  "desc":"普通的冲水马桶",
+  "file":"toilet"
+},
+{
+  "name":"壁挂式马桶",
+  "desc":"科勒壁挂式马桶，入墙式隐藏水箱,\n悬挂坐便器",
+  "file":"wall_mounted_toilet"
+},
+{
+  "name":"洗衣机（小）",
+  "desc":"海尔Mini洗衣机，3公斤，适合小户型",
+  "file":"wash_machine"
+},
+{
+  "name":"test2_box",
+  "desc":"带贴图的一个盒子，测试模型",
+  "file":"test2_box"
+}
+]}

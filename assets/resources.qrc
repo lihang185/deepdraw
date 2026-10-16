@@ -1,0 +1,31 @@
+<RCC>
+  <qresource prefix="toolbar">
+    <file>icons/tb_position.svg</file>
+    <file>icons/tb_layer_manager.svg</file>
+    <file>icons/tb_explode.svg</file>
+    <file>icons/tb_arc3point.svg</file>
+    <file>icons/tb_circle.svg</file>
+    <file>icons/tb_mirror.svg</file>
+    <file>icons/tb_followme.svg</file>
+    <file>icons/tb_offset.svg</file>
+    <file>icons/tb_brush.svg</file>
+    <file>icons/tb_move.svg</file>
+    <file>icons/tb_rotate.svg</file>
+    <file>icons/block.svg</file>
+    <file>icons/building.svg</file>
+    <file>icons/street.svg</file>
+    <file>icons/tutorial.png</file>
+    <file>icons/tb_polygon.svg</file>
+    <file>icons/tb_erase.svg</file>
+    <file>icons/tb_measure.svg</file>
+    <file>icons/tb_line.svg</file>
+    <file>icons/tb_orbit.svg</file>
+    <file>icons/tb_pan.svg</file>
+    <file>icons/tb_pushpull.svg</file>
+    <file>icons/tb_rectangle.svg</file>
+    <file>icons/tb_select.svg</file>
+  <file>icons/edu_scale.svg</file><file>icons/edu_section.svg</file><file>icons/edu_dimension.svg</file><file>icons/edu_annotation.svg</file><file>icons/edu_protractor.svg</file><file>icons/edu_text3d.svg</file><file>icons/edu_shadows.svg</file><file>icons/edu_walk.svg</file><file>icons/edu_look.svg</file></qresource>
+  <qresource prefix="app">
+    <file>icons/logo.png</file>
+  </qresource>
+</RCC>

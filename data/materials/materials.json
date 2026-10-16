@@ -1,0 +1,106 @@
+{
+  "list": [
+    {
+      "name": "胡桃木",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "hutao.jpg",
+      "size_u": 100,
+      "size_v": 100
+    },
+    {
+      "name": "木纹02",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "muwen02.jpg",
+      "size_u": 100,
+      "size_v": 100
+    },
+    {
+      "name": "木地板01",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "wood_floor_01.jpg",
+      "size_u": 100,
+      "size_v": 157
+    },
+    {
+      "name": "大理石(鱼肚白)",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "white_mable.jpg",
+      "size_u": 100,
+      "size_v": 100
+    },
+    {
+      "name": "大理石(法国灰)",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "marble_gray.jpg",
+      "size_u": 75,
+      "size_v": 150
+    },
+    {
+      "name": "大理石(奥特曼米黄)",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "marble_aoteman.jpg",
+      "size_u": 120,
+      "size_v": 120
+    },
+    {
+      "name": "大理石(深咖网)",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "deep_coffee_network.jpg",
+      "size_u": 100,
+      "size_v": 100
+    },
+    {
+      "name": "砖块(外墙)",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "Stone_Masonry_Multi.jpg",
+      "size_u": 100,
+      "size_v": 100
+    },
+    {
+      "name": "木地板(鱼骨拼)",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "texture": "xingzhe12149.jpg",
+      "size_u": 100,
+      "size_v": 100
+    },
+    {
+      "name": "default",
+      "color": [255,255,255],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "thumbnail": "default.jpg"
+    },
+    {
+      "name": "red",
+      "color": [255,0,0],
+      "use_opacity": false,
+      "opacity": 1.0,
+      "thumbnail": "red.jpg"
+    },
+    {
+      "name": "半透明",
+      "color": [96,121,163],
+      "use_opacity": true,
+      "opacity": 0.13,
+      "thumbnail": "thum01.jpg"
+    }
+  ]
+}

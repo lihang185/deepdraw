@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoadProgressDialog</class>
+ <widget class="QDialog" name="LoadProgressDialog">
+  <property name="windowTitle"><string>打开模型</string></property>
+  <property name="minimumSize"><size><width>400</width><height>110</height></size></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QLabel" name="status_label"><property name="text"><string>正在读取模型……</string></property></widget></item>
+   <item><widget class="QProgressBar" name="progress_bar"><property name="value"><number>0</number></property></widget></item>
+   <item><widget class="QLabel" name="detail_label"><property name="text"><string/></property></widget></item>
+   <item><widget class="QLabel" name="choice_label"><property name="text"><string>模型非常大。是否提前初始化模型数据？
+减少浏览场景时的停顿；初始化可能需要一些时间。</string></property><property name="wordWrap"><bool>true</bool></property></widget></item>
+   <item><widget class="QWidget" name="choice_buttons"><layout class="QHBoxLayout" name="buttonLayout">
+    <item><spacer name="buttonSpacer"><property name="orientation"><enum>Qt::Horizontal</enum></property><property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property></spacer></item>
+    <item><widget class="QPushButton" name="initialize_button"><property name="text"><string>初始化</string></property><property name="default"><bool>true</bool></property></widget></item>
+    <item><widget class="QPushButton" name="skip_button"><property name="text"><string>跳过</string></property></widget></item>
+   </layout></widget></item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

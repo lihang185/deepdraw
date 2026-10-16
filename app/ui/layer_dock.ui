@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+ <class>LayerDock</class>
+ <widget class="QDockWidget" name="LayerDock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>351</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>图层与场景</string>
+  </property>
+  <widget class="QWidget" name="contents">
+   <layout class="QVBoxLayout" name="layout">
+    <item>
+     <widget class="QSplitter" name="panelSplitter">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="childrenCollapsible">
+       <bool>false</bool>
+      </property>
+      <widget class="QGroupBox" name="layerGroup">
+       <property name="title">
+        <string>图层管理</string>
+       </property>
+       <layout class="QVBoxLayout" name="layerLayout">
+        <item>
+         <layout class="QHBoxLayout" name="commands">
+          <item>
+           <widget class="QToolButton" name="addButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>新建图层</string>
+            </property>
+            <property name="text">
+             <string>＋</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="deleteButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>删除选中的图层</string>
+            </property>
+            <property name="text">
+             <string>－</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="spacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QToolButton" name="assignButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>将场景选中对象分配到列表选中的图层</string>
+            </property>
+            <property name="text">
+             <string>分配选中对象</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="layers">
+          <property name="selectionMode">
+           <enum>QAbstractItemView::SingleSelection</enum>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <column>
+           <property name="text">
+            <string>名称</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>可见</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>颜色</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QGroupBox" name="sceneGroup">
+       <property name="title">
+        <string>场景管理</string>
+       </property>
+       <layout class="QVBoxLayout" name="sceneLayout">
+        <item>
+         <layout class="QHBoxLayout" name="sceneCommands">
+          <item>
+           <widget class="QToolButton" name="addSceneButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>保存当前视角、可见图层及太阳光/阴影设置为新场景</string>
+            </property>
+            <property name="text">
+             <string>＋</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="deleteSceneButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>删除选中的场景</string>
+            </property>
+            <property name="text">
+             <string>－</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="updateSceneButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>将当前视角、可见图层及太阳光/阴影设置更新到所选场景</string>
+            </property>
+            <property name="text">
+             <string>更新场景</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="applySceneButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>切换</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QListWidget" name="scenes">
+          <property name="toolTip">
+           <string>双击切换场景，按 F2 重命名</string>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::EditKeyPressed</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources />
+ <connections />
+</ui>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CModelCache.cpp" />
+    <ClCompile Include="cmath.cpp" />
+    <ClCompile Include="glad\src\glad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CModelCache.h" />
+    <ClInclude Include="cmath.h" />
+    <ClInclude Include="draw_list.h" />
+    <ClInclude Include="transform_tree.h" />
+    <ClInclude Include="shadow_map.h" />
+    <ClInclude Include="DeepDrawAPI.h" />
+  <ClInclude Include="entity_capsule.h" /></ItemGroup>
+</Project>

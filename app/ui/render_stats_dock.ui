@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RenderStatsDock</class>
+ <widget class="QDockWidget" name="RenderStatsDock">
+  <property name="windowTitle"><string>渲染统计</string></property>
+  <property name="minimumSize"><size><width>480</width><height>700</height></size></property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item><widget class="QLabel" name="summary"><property name="text"><string>等待视图刷新…</string></property></widget></item>
+    <item><widget class="QTabWidget" name="tabs">
+     <widget class="QWidget" name="overviewTab"><attribute name="title"><string>总览</string></attribute>
+      <layout class="QVBoxLayout" name="overviewLayout"><item><widget class="QTableWidget" name="metrics">
+     <property name="editTriggers"><set>QAbstractItemView::NoEditTriggers</set></property>
+     <property name="selectionMode"><enum>QAbstractItemView::NoSelection</enum></property>
+     <attribute name="verticalHeaderDefaultSectionSize"><number>24</number></attribute>
+     <column><property name="text"><string>指标</string></property></column>
+     <column><property name="text"><string>平均 / 帧</string></property></column>
+     <column><property name="text"><string>最大 / 帧</string></property></column>
+    </widget></item></layout>
+     </widget>
+     <widget class="QWidget" name="stagesTab"><attribute name="title"><string>分阶段提交</string></attribute>
+      <layout class="QVBoxLayout" name="stagesLayout">
+       <item><widget class="QTableWidget" name="stages">
+        <property name="editTriggers"><set>QAbstractItemView::NoEditTriggers</set></property>
+        <property name="selectionMode"><enum>QAbstractItemView::NoSelection</enum></property>
+        <column><property name="text"><string>阶段</string></property></column>
+        <column><property name="text"><string>调用/帧</string></property></column>
+        <column><property name="text"><string>三角形/帧</string></property></column>
+        <column><property name="text"><string>线段/帧</string></property></column>
+       </widget></item>
+       <item><widget class="QLabel" name="stagesNote"><property name="text"><string>显示本周期平均提交量。各阶段合计等于总览的 VBO 提交量；阴影包含阴影贴图和叠加绘制。耗时较高但提交量很少的阶段，需要进一步检查遍历或驱动等待。</string></property><property name="wordWrap"><bool>true</bool></property></widget></item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="batchesTab"><attribute name="title"><string>合批分析</string></attribute>
+      <layout class="QVBoxLayout" name="batchesLayout">
+       <item><widget class="QLabel" name="batchSummary"><property name="text"><string>等待场景就绪…</string></property><property name="wordWrap"><bool>true</bool></property></widget></item>
+       <item><widget class="QTableWidget" name="batchReasons">
+        <property name="editTriggers"><set>QAbstractItemView::NoEditTriggers</set></property>
+        <property name="selectionMode"><enum>QAbstractItemView::NoSelection</enum></property>
+        <column><property name="text"><string>未合批首要原因</string></property></column>
+        <column><property name="text"><string>节点数</string></property></column>
+        <column><property name="text"><string>其中非叶子</string></property></column>
+       </widget></item>
+       <item><widget class="QLabel" name="batchNote"><property name="text"><string>仅在此页显示时分析，结果按场景及编辑路径缓存。统计裁剪前的剩余显示节点，每个节点归入一个原因，不重复计数。叶子节点本身不足以合批，重点查看非叶子节点为何被阻断。此诊断不改变合批规则。</string></property><property name="wordWrap"><bool>true</bool></property></widget></item>
+      </layout>
+     </widget>
+    </widget></item>
+    <item><widget class="QCheckBox" name="noCull"><property name="text"><string>关闭视锥裁剪（与 Test4 同步）</string></property></widget></item>
+    <item><layout class="QHBoxLayout" name="smallObjectLayout">
+     <item><widget class="QLabel" name="smallObjectLabel"><property name="text"><string>小物体过滤（尺寸/距离）</string></property></widget></item>
+     <item><widget class="QDoubleSpinBox" name="smallObjectPercent"><property name="toolTip"><string>包围盒对角线长度/相机到包围盒最近距离，小于阈值时跳过整个子树。0 关闭；值越大，过滤越多。关闭统计面板后仍生效。</string></property><property name="decimals"><number>2</number></property><property name="maximum"><double>10.000000000000000</double></property><property name="singleStep"><double>0.050000000000000</double></property><property name="suffix"><string> %</string></property></widget></item>
+    </layout></item>
+    <item><widget class="QCheckBox" name="noEdges"><property name="text"><string>测试：隐藏模型边线与辅助线</string></property></widget></item>
+    <item><widget class="QCheckBox" name="noShadows"><property name="text"><string>测试：关闭阴影</string></property></widget></item>
+    <item><widget class="QCheckBox" name="noTransparent"><property name="text"><string>测试：隐藏透明面</string></property><property name="toolTip"><string>跳过透明材质面的绘制，边线保留；不修改模型材质。</string></property></widget></item>
+    <item><widget class="QLabel" name="notes">
+     <property name="text"><string>每 0.5 秒汇总实际绘制帧；不主动刷新场景。时间为 CPU 提交耗时，不是 GPU 耗时。VBO 提交量含阴影重复绘制，不含选择框等即时辅助图形。关闭面板停止额外统计，并恢复边线/阴影/透明面测试开关。</string></property>
+     <property name="wordWrap"><bool>true</bool></property>
+    </widget></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

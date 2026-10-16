@@ -1,0 +1,4 @@
+PySide2==5.15.2.1
+PyOpenGL
+numpy<1.25
+Pillow>=10.4,<11

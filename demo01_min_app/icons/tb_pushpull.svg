@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="推挤工具">
+  <path d="m145 650 367-108 367 108-367 108Z" fill="#D8CDEE" stroke="#2F2845" stroke-width="30" stroke-linejoin="round"/>
+  <path d="M145 650v127l367 108V758Z" fill="#7157A3" stroke="#2F2845" stroke-width="30" stroke-linejoin="round"/>
+  <path d="M879 650v127L512 885V758Z" fill="#A897D2" stroke="#2F2845" stroke-width="30" stroke-linejoin="round"/>
+  <path d="M512 639V337" fill="none" stroke="#2F2845" stroke-width="116" stroke-linecap="round"/>
+  <path d="M512 639V337" fill="none" stroke="#45C5A5" stroke-width="76" stroke-linecap="round"/>
+  <path d="m318 369 194-236 194 236Z" fill="#45C5A5" stroke="#2F2845" stroke-width="34" stroke-linejoin="round"/>
+</svg>
+

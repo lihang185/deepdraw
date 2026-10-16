@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="卷尺工具">
+  <!-- 向右伸出的尺带 -->
+  <path d="M620 548h330v184H620Z"
+        fill="#D8CDEE" stroke="#2F2845" stroke-width="38" stroke-linejoin="round"/>
+  <path d="M950 548v224"
+        fill="none" stroke="#2F2845" stroke-width="38" stroke-linecap="round"/>
+  <path d="M690 548v58M756 548v92M822 548v58M888 548v92"
+        fill="none" stroke="#2F2845" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- 卷尺主体 -->
+  <path d="M620 770H354C198 770 72 644 72 488c0-177 143-320 320-320h174l114 142v400c0 33-27 60-60 60Z"
+        fill="#D8CDEE" stroke="#2F2845" stroke-width="42" stroke-linejoin="round"/>
+
+  <!-- 顶部挂扣 -->
+  <path d="m566 168 64-64 112 136-68 58Z"
+        fill="#45C5A5" stroke="#2F2845" stroke-width="38" stroke-linejoin="round"/>
+  <path d="m625 163 43-35 48 59-44 36Z"
+        fill="#fff"/>
+
+  <!-- 中央卷盘 -->
+  <circle cx="386" cy="460" r="174"
+        fill="#fff" stroke="#2F2845" stroke-width="42"/>
+  <rect x="326" y="366" width="120" height="188" rx="20"
+        fill="#45C5A5" stroke="#2F2845" stroke-width="36"/>
+</svg>

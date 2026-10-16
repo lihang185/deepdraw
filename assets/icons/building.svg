@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path d="M27,21.17v-10.48l-11-5.7-11,5.76v10.48l11,5.75,11-5.81" style="fill: #a4d4e9; stroke-width: 0px;"/>
+  <path d="M27,10.76l-11,5.76-11-5.76M16,16.52v10.48" style="fill: none; stroke-width: 0px;"/>
+  <path d="M27,21.17l-11,5.81v-10.48l11-5.81v10.48Z" style="fill: #5aa1c9; stroke-width: 0px;"/>
+  <path d="M5,10.7l11,5.83v10.48l-11-5.83v-10.48Z" style="fill: #0f5fa3; stroke-width: 0px;"/>
+  <path d="M7.81,18.42v-1.86l-1.11-.59v1.87l1.11.58ZM7.81,21.28v-1.86l-1.11-.59v1.87l1.11.58ZM7.81,15.38v-1.86l-1.11-.59v1.87l1.11.58ZM10.87,20.03v-1.86l-1.11-.59v1.87l1.11.58ZM10.87,22.87v-1.86l-1.11-.58v1.86l1.11.58ZM10.87,17v-1.86l-1.11-.59v1.87l1.11.58ZM13.99,21.68v-1.86l-1.11-.59v1.87l1.11.58ZM13.99,24.54v-1.86l-1.11-.59v1.87l1.11.58ZM13.99,18.65v-1.86l-1.11-.59v1.87l1.11.58ZM21.08,23.58v-2.54l1.49-.79v2.53l-1.49.8Z" style="fill: #fff; stroke-width: 0px;"/>
+  <path d="M8.72,11.14l7.28-3.81,7.28,3.75-7.28,3.88-7.28-3.81Z" style="fill: #fff; stroke-width: 0px;"/>
+  <path d="M27,21.17v-10.48h0l-11-5.68-11,5.76v10.48l11,5.75,11-5.83" style="fill: none; stroke: #0f5fa3; stroke-linecap: round; stroke-linejoin: round;"/>
+  <path d="M27,10.76l-11,5.76-11-5.76M16,16.52v10.48" style="fill: none; stroke-width: 0px;"/>
+</svg>

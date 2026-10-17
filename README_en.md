@@ -10,13 +10,11 @@ It follows a technical approach as close to SketchUp as possible, keeping its co
 
 ![DeepDraw interface screenshot](screenshot/screenshot01.png)
 
-## National Strategy
+## Staying True to Our Original Mission
 
 China has a vast number of architectural design, urban renewal, interior design, and engineering projects, with design exploration and 3D visualization forming part of everyday work. The National Bureau of Statistics' Fifth National Economic Census bulletin documents the enormous scale of the construction industry. The *Guiding Opinions on Promoting the Coordinated Development of Intelligent Construction and Building Industrialization*, issued by the Ministry of Housing and Urban-Rural Development and other departments, calls for breakthroughs in key technologies such as specialized software, the active adoption of independently controlled BIM technologies, and the development of digital design platforms and integrated systems.
 
-## Cornerstone Initiative
-
-As the world's largest industrial nation, China has long lacked its own industrial design software products, relying on foreign vendors and remaining dependent on Europe and the United States. This is like a towering skyscraper whose foundations still need strengthening. We have launched the "Cornerstone Initiative" with the goal of developing affordable alternatives to all industrial design software sold in China over the next ten years. A decade of foundation-building will support an independent future for Chinese industry. The scope includes Rhino, AutoCAD, SolidWorks, UG, and MATLAB.
+As the world's largest industrial nation, China has long lacked its own industrial design software products, relying on foreign vendors and remaining dependent on Europe and the United States. This is like a towering skyscraper whose foundations still need strengthening. I have launched the "Cornerstone Initiative" with the goal of developing affordable alternatives to all industrial design software sold in China over the next ten years, including Rhino, AutoCAD, SolidWorks, UG, and MATLAB. A decade of foundation-building will support an independent future for Chinese industry.
 
 ## Product Comparison
 

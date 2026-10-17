@@ -10,6 +10,12 @@ DeepDraw 是一款 SketchUp 的替代产品，也是一款中国产的轻量化�
 
 ![DeepDraw 界面截图](screenshot/screenshot01.png)
 
+## 轻量版 Skp Viewer
+
+如果只需要读取和查看 `.skp` 模型，可以使用独立的轻量项目：[Skp Viewer](https://github.com/lihang185/skp_viewer)。它采用独立编写的 C++ 读取器，无需安装 SketchUp 或依赖 SketchUp SDK。
+
+![Skp Viewer](screenshot/skp_viewer.png)
+
 ## 不忘初心
 中国有大量建筑设计、城市更新、室内设计和工程项目，方案推敲与三维表达的需求贯穿日常工作。国家统计局的第五次全国经济普查公报记录了建筑业的庞大体量。住房和城乡建设部等部门《关于推动智能建造与建筑工业化协同发展的指导意见》提出，要突破专用软件等关键技术，积极应用自主可控的 BIM 技术，并建设数字设计基础平台和集成系统。
 

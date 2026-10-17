@@ -10,6 +10,10 @@ It follows a technical approach as close to SketchUp as possible, keeping its co
 
 ![DeepDraw interface screenshot](screenshot/screenshot01.png)
 
+## Lightweight SKP Viewer
+
+If you only need to read and view `.skp` models, try the standalone lightweight project: [SKP Viewer](https://github.com/lihang185/skp_viewer). It combines an independently written C++ reader with PyQt5 and PyOpenGL to display model geometry, materials, and textures, without requiring SketchUp or the SketchUp SDK. It currently supports tested SKP 15 / 17 file variants. For full modeling capabilities, use DeepDraw.
+
 ## Staying True to Our Original Mission
 
 China has a vast number of architectural design, urban renewal, interior design, and engineering projects, with design exploration and 3D visualization forming part of everyday work. The National Bureau of Statistics' Fifth National Economic Census bulletin documents the enormous scale of the construction industry. The *Guiding Opinions on Promoting the Coordinated Development of Intelligent Construction and Building Industrialization*, issued by the Ministry of Housing and Urban-Rural Development and other departments, calls for breakthroughs in key technologies such as specialized software, the active adoption of independently controlled BIM technologies, and the development of digital design platforms and integrated systems.
